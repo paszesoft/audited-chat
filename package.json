@@ -1,0 +1,39 @@
+{
+  "name": "audited-chat",
+  "version": "1.0.0",
+  "description": "Audited Multi-Peer Audio-Video Chat with Sessions saved on Server - detailed description in read.me.md",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paszesoft/audited-chat.git"
+  },
+  "keywords": [
+    "audited",
+    "multi-peer",
+    "audio-video-chat",
+    "multi",
+    "peer",
+    "audio",
+    "video",
+    "chat",
+    "save-on-server",
+    "save",
+    "nodejs",
+    "server",
+    "webrtc",
+    "rtcpeerconnection",
+    "mediaelement",
+    "mediarecorder",
+    "chrome",
+    "firefox"
+  ],
+  "author": "Pavol Szegheo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paszesoft/audited-chat/issues"
+  },
+  "homepage": "https://github.com/paszesoft/audited-chat#readme"
+}
