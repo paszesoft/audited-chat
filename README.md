@@ -21,7 +21,7 @@ $ npm start
 2) Access Server from a supported browser using HTTPS at: serverNameOrIp:httpsPort
 - Non-default HTTP & HTTPS ports 8001 & 8443 are set in server.js to avoid possible conflicts
   with another server running on your host that is already using the default 80 and 443 ports.
-  Attempting to start a server on ports in use would result in error.
+- Attempting to start a server on ports in use would result in error.
 - To bypass the Display Name prompt, specify url parameter, e.g.: ?displayName=SomeName
 - To access/test from server host, use multiple browser tabs as follows:
   - Tab1: [https://localhost:8443?displayName=Tab1]
@@ -42,8 +42,10 @@ Recording a media element
 =========================
 - Wiki Contributors
   - mfuji09 Jib Wind1808 cesque Sheppy
-- See [https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element) for a detailed walkthrough of the code.
-- Code is deployed at and can be copied from using view source at [https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example](https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example)
+- For a detailed walkthrough of the code, see
+ - [https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element)
+- Code is deployed at and can be copied from using view source at
+  - [https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example](https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example)
 
 ### 2)
 Multi User Video Chat With WebRTC
@@ -55,8 +57,10 @@ Multi User Video Chat With WebRTC
 - Add CSS styling to:
   - automatically arrange the video containers in a grid on the screen,
   - add labels to identify each participant.
-- See [https://www.dmcinfo.com/latest-thinking/blog/id/9852/multi-user-video-chat-with-webrtc](https://www.dmcinfo.com/latest-thinking/blog/id/9852/multi-user-video-chat-with-webrtc) for a detailed walkthrough of the code.
-- Download zip of code at [https://www.dmcinfo.com/Portals/0/Blog%20Files/WebRTC.zip](https://www.dmcinfo.com/Portals/0/Blog%20Files/WebRTC.zip)
+- For a detailed walkthrough of the code, see
+ - [https://www.dmcinfo.com/latest-thinking/blog/id/9852/multi-user-video-chat-with-webrtc](https://www.dmcinfo.com/latest-thinking/blog/id/9852/multi-user-video-chat-with-webrtc)
+- Download zip of code at
+  - [https://www.dmcinfo.com/Portals/0/Blog%20Files/WebRTC.zip](https://www.dmcinfo.com/Portals/0/Blog%20Files/WebRTC.zip)
 
 # Based in turn on:
 
@@ -72,9 +76,9 @@ WebRTC Example
 
 An 'as simple as it gets' WebRTC example.
 
-See [https://shanetully.com/2014/09/a-dead-simple-webrtc-example/](https://shanetully.com/2014/09/a-dead-simple-webrtc-example/)
-for a detailed walkthrough of the code.
-Repo [https://github.com/shanet/WebRTC-Example](https://github.com/shanet/WebRTC-Example)
+- For a detailed walkthrough of the code, see
+ - [https://shanetully.com/2014/09/a-dead-simple-webrtc-example/](https://shanetully.com/2014/09/a-dead-simple-webrtc-example/)
+- Repo [https://github.com/shanet/WebRTC-Example](https://github.com/shanet/WebRTC-Example)
 
 Note: This repo is kept updated. The general ideas are there, but the above blog post may be somewhat out of date with the code in this repo.
 
