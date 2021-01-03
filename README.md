@@ -37,7 +37,7 @@ $ node install_service.js
 
 # Based on:
 
-###1)
+### 1)
 Recording a media element
 =========================
 - Wiki Contributors
@@ -45,7 +45,7 @@ Recording a media element
 - See [https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element) for a detailed walkthrough of the code.
 - Code is deployed at and can be copied from using view source at [https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example](https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example)
 
-###2)
+### 2)
 Multi User Video Chat With WebRTC
 =================================
 
