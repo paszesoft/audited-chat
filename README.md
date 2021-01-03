@@ -4,7 +4,7 @@ Audited Chat
 ### Pavol Szegheo (PaSzeSoft)
 
 - Extends 'Multi User Video Chat With WebRTC' to save client sessions on server.
-- Similar to 'Recording a media element' captures WebM stream chunks.
+- Akin to 'Recording a media element' captures WebM stream chunks.
 - Sends stream chunks from each peer session to server, and saves them there as they are received.
 - Adds a link for peers to: view a list of and view/download the saved sessions in WebM format.
 
