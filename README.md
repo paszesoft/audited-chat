@@ -37,17 +37,15 @@ $ node install_service.js
 
 # Based on:
 
-1)
+###1)
 Recording a media element
 =========================
-Wiki Contributors
-mfuji09 Jib Wind1808 cesque Sheppy
-See [https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element)
-for a detailed walkthrough of the code.
-Code is deployed at and can be copied from using view source at:
-[https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example](https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example)
+- Wiki Contributors
+  - mfuji09 Jib Wind1808 cesque Sheppy
+- See [https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element) for a detailed walkthrough of the code.
+- Code is deployed at and can be copied from using view source at [https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example](https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example)
 
-2)
+###2)
 Multi User Video Chat With WebRTC
 =================================
 
@@ -57,10 +55,8 @@ Multi User Video Chat With WebRTC
 - Add CSS styling to:
   - automatically arrange the video containers in a grid on the screen,
   - add labels to identify each participant.
-See [https://www.dmcinfo.com/latest-thinking/blog/id/9852/multi-user-video-chat-with-webrtc](https://www.dmcinfo.com/latest-thinking/blog/id/9852/multi-user-video-chat-with-webrtc)
-for a detailed walkthrough of the code.
-Download zip of code at
-[https://www.dmcinfo.com/Portals/0/Blog%20Files/WebRTC.zip](https://www.dmcinfo.com/Portals/0/Blog%20Files/WebRTC.zip)
+- See [https://www.dmcinfo.com/latest-thinking/blog/id/9852/multi-user-video-chat-with-webrtc](https://www.dmcinfo.com/latest-thinking/blog/id/9852/multi-user-video-chat-with-webrtc) for a detailed walkthrough of the code.
+- Download zip of code at [https://www.dmcinfo.com/Portals/0/Blog%20Files/WebRTC.zip](https://www.dmcinfo.com/Portals/0/Blog%20Files/WebRTC.zip)
 
 # Based in turn on:
 
