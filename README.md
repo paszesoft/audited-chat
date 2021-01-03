@@ -37,14 +37,19 @@ $ node install_service.js
 
 # Based on:
 
-1) Recording a media element
-============================
-Wiki Contributors: mfuji09, Jib, Wind1808, cesque, Sheppy
-See [https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element) for a detailed walkthrough of the code.
-Code is deployed at and can be copied from using view source at: [https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example](https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example)
+1)
+Recording a media element
+=========================
+Wiki Contributors
+mfuji09 Jib Wind1808 cesque Sheppy
+See [https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element)
+for a detailed walkthrough of the code.
+Code is deployed at and can be copied from using view source at:
+[https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example](https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example)
 
-2) Multi User Video Chat With WebRTC
-====================================
+2)
+Multi User Video Chat With WebRTC
+=================================
 
 #### Jirka Hladis (www.dmcinfo.com)
 
@@ -52,8 +57,10 @@ Code is deployed at and can be copied from using view source at: [https://yari-d
 - Add CSS styling to:
   - automatically arrange the video containers in a grid on the screen,
   - add labels to identify each participant.
-See [https://www.dmcinfo.com/latest-thinking/blog/id/9852/multi-user-video-chat-with-webrtc](https://www.dmcinfo.com/latest-thinking/blog/id/9852/multi-user-video-chat-with-webrtc) for a detailed walkthrough of the code.
-Download zip of code at: [https://www.dmcinfo.com/Portals/0/Blog%20Files/WebRTC.zip](https://www.dmcinfo.com/Portals/0/Blog%20Files/WebRTC.zip)
+See [https://www.dmcinfo.com/latest-thinking/blog/id/9852/multi-user-video-chat-with-webrtc](https://www.dmcinfo.com/latest-thinking/blog/id/9852/multi-user-video-chat-with-webrtc)
+for a detailed walkthrough of the code.
+Download zip of code at
+[https://www.dmcinfo.com/Portals/0/Blog%20Files/WebRTC.zip](https://www.dmcinfo.com/Portals/0/Blog%20Files/WebRTC.zip)
 
 # Based in turn on:
 
@@ -69,7 +76,8 @@ WebRTC Example
 
 An 'as simple as it gets' WebRTC example.
 
-See [https://shanetully.com/2014/09/a-dead-simple-webrtc-example/](https://shanetully.com/2014/09/a-dead-simple-webrtc-example/) for a detailed walkthrough of the code.
+See [https://shanetully.com/2014/09/a-dead-simple-webrtc-example/](https://shanetully.com/2014/09/a-dead-simple-webrtc-example/)
+for a detailed walkthrough of the code.
 Repo [https://github.com/shanet/WebRTC-Example](https://github.com/shanet/WebRTC-Example)
 
 Note: This repo is kept updated. The general ideas are there, but the above blog post may be somewhat out of date with the code in this repo.
