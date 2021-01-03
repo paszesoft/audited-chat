@@ -1,7 +1,7 @@
 {
   "name": "audited-chat",
   "version": "1.0.0",
-  "description": "Audited Multi-Peer Audio-Video Chat with Sessions saved on Server - detailed description in read.me.md",
+  "description": "Audited Multi-Peer Audio-Video Chat with Sessions saved on Server - detailed description in README.md",
   "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -35,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/paszesoft/audited-chat/issues"
   },
-  "homepage": "https://github.com/paszesoft/audited-chat#readme"
+  "homepage": "https://github.com/paszesoft/audited-chat#readme",
+  "dependencies": {
+    "ws": "^3.3.2"
+  }
 }
