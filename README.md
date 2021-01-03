@@ -24,9 +24,9 @@ $ npm start
 - Attempting to start a server on ports in use would result in error.
 - To bypass the Display Name prompt, specify url parameter, e.g.: ?displayName=SomeName
 - To access/test from server host, use multiple browser tabs as follows:
-  - Tab1: [https://localhost:8443?displayName=Tab1]
-  - Tab2: [https://localhost:8443?displayName=Tab2]
-  - Tab3: [https://localhost:8443?displayName=Tab3]
+  - Tab1: [https://localhost:8443?displayName=Tab1](https://localhost:8443?displayName=Tab1)
+  - Tab2: [https://localhost:8443?displayName=Tab2](https://localhost:8443?displayName=Tab2)
+  - Tab3: [https://localhost:8443?displayName=Tab3](https://localhost:8443?displayName=Tab3)
   - ... etc.
 3) For production, deploy the Server as a node-windows Windows Service:
 ```
