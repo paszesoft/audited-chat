@@ -1,7 +1,7 @@
 Audited Chat
 ============
 
-#### Pavol Szegheo (PaSzeSoft)
+### Pavol Szegheo (PaSzeSoft)
 
 - Extends 'Multi User Video Chat With WebRTC' to save client sessions on server.
 - Similar to 'Recording a media element' captures WebM stream chunks.
@@ -11,13 +11,15 @@ Audited Chat
 ## Usage
 
 0) The browsers supported at this time are:
-    - Google Chrome
-    - Mozilla Firefox
+- Google Chrome
+- Mozilla Firefox
+
 1) Install & Start the nodejs/ws Signaling Server:
 ```
 $ npm install
 $ npm start
 ```
+
 2) Access Server from a supported browser using HTTPS at: serverNameOrIp:httpsPort
 - Non-default HTTP & HTTPS ports 8001 & 8443 are set in server.js to avoid possible conflicts
   with another server running on your host that is already using the default 80 and 443 ports.
@@ -28,16 +30,19 @@ $ npm start
   - Tab2: [https://localhost:8443?displayName=Tab2](https://localhost:8443?displayName=Tab2)
   - Tab3: [https://localhost:8443?displayName=Tab3](https://localhost:8443?displayName=Tab3)
   - ... etc.
-3) For production, deploy the Server as a node-windows Windows Service:
+- Note for above: If server host has camera/microphone attached, 0 lenght WebM recordings would result.
+
+3) The saved sessions are in WebM format, that can be directly viewed using the supported browsers.
+
+4) For production, deploy the Server as a node-windows Windows Service:
 ```
 $ npm install -g node-windows
 $ node install_service.js
 ```
-4) The saved sessions are in WebM format, that can be directly viewed using the supported browsers.
 
 # Based on:
 
-### 1)
+## 1)
 Recording a media element
 =========================
 - Wiki Contributors
@@ -47,11 +52,11 @@ Recording a media element
 - Code is deployed at and can be copied from using view source at
   - [https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example](https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element/_samples_/Example)
 
-### 2)
+## 2)
 Multi User Video Chat With WebRTC
 =================================
 
-#### Jirka Hladis (www.dmcinfo.com)
+### Jirka Hladis (www.dmcinfo.com)
 
 - Extend 'A Dead Simple WebRTC Example' to support an arbitrary number of participants.
 - Add CSS styling to:
@@ -72,7 +77,7 @@ aka
 WebRTC Example
 ==============
 
-#### shane tully (shanetully.com)
+### shane tully (shanetully.com)
 
 An 'as simple as it gets' WebRTC example.
 
