@@ -1,49 +1,59 @@
 :root {
-    --rowHeight: 98vh;
-    --colWidth: 98vw;
-  }
+    --rowHeight: 18vh;
+    --colWidth: 18vw;
+    --videoWidth: 20vw;
+    --gap: 1vW;
+}
 
-  body{
-      background: black;
-  }
+body{
+      background: blue;
+}
   
-  .videos { 
-  
-      display: grid;
-      grid-gap: 5px;
-      grid-auto-flow: row;
+.videos { 
+    width: var(--videoWidth);
+    display: grid;
+    max-width: 200px;
+    
+    position: fixed;
+    right: var(--gap);
+    bottom: var(--gap);
       
-      grid-template-columns: repeat(auto-fit, minmax(var(--colWidth), 1fr)) ;
-  }
-  
-  .videoContainer {
-      position: relative;
-      overflow: hidden;
+    grid-gap: var(--gap);
+    grid-auto-flow: row;
       
-      min-height: var(--rowHeight);
-      min-width: var(--colWidth);
-      
-  }
+    grid-template-columns: repeat(auto-fit, minmax(var(--colWidth), 1fr)) ;
+}
   
-  .videoContainer video {
-  
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      height: auto;
-      width: 100%;
-  }
-  
-  .videoLabel {
-      color: white;
-      font: bold 18px Arial, Sans-Serif;
-      line-height: 18px;
-      height: 18px;
+.videoContainer {
+    position: relative;
+    overflow: hidden;
       
-      background: rgba(0, 0, 0, 0.55);
+    min-height: var(--rowHeight);
+    min-width: var(--colWidth);
+    max-height: 150px;
+    max-width: 200px;
+}
+  
+.videoContainer video {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    max-height: 150px;
+    max-width: 200px;
+}
+  
+.videoLabel {
+    color: white;
+    font: bold 18px Arial, Sans-Serif;
+    line-height: 18px;
+    height: 18px;
       
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      padding: 4px;
-  }
+    background: rgba(0, 0, 0, 0.55);
+      
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 4px;
+}
